@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>const numeroAleatorio = Math.round(Math.random() * 10);
+
+        console.log(numeroAleatorio);
+        
+        let numeroElegido = prompt("Elije un numero del 1 al 10");
+        if (numeroElegido === numeroAleatorio){
+            alert("Felicidades");
+        } else if(numeroElegido < numeroAleatorio){
+            alert("Es menor");
+        }
+        else if(numeroElegido > numeroAleatorio){
+            alert("Es mayor");
+        };
+        </script>
+</body>
+</html>
